@@ -15,10 +15,10 @@ Ingests an arXiv PDF URL and generates a VC-style investment report.
 
 ## External Services
 
-*   **AI:** Google Gemini 1.5 Pro (via OpenAI SDK compatibility layer)
-*   **Market Research:** Firecrawl (`/research` endpoint)
+*   **AI:** Google Gemini 2.5 Pro (via OpenAI SDK compatibility layer)
+*   **Market Research:** Firecrawl (`/deep-research` endpoint)
 *   **Competitor Analysis:** Apify (Crunchbase Actor: `curious_coder/crunchbase-scraper`)
-*   **PDF Ingestion:** arXiv API + `pdf-parse`
+*   **PDF Ingestion:** arXiv API + `pdf-parse` + guMCP
 
 ## Getting Started
 
